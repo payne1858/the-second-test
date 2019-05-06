@@ -36,6 +36,7 @@ public class HelloController {
         System.out.println("用户姓名是：" + name + "," + "地址是：" + address);
         ArrayList<Object> list = new ArrayList<>();
         list.add("tom");
+        System.out.println("this is v2");
         list.add(name);
         return list;
     }
